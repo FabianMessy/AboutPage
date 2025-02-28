@@ -1,0 +1,20 @@
+body, html {
+    height: 200%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+}
+
+#animated-text {
+    position: absolute;
+    white-space: nowrap;
+    left: -50%; /* Começa fora da tela */
+    transition: left 0.1s ease-out;
+}
